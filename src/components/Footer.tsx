@@ -28,7 +28,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Gamepad2 className="size-6 text-indigo-400" />
-              <span>GameRent</span>
+              <span>Games Mania</span>
             </div>
             <p className="text-slate-400">
               Alugue os melhores jogos de tabuleiro e cartas para suas reuniões e eventos.
@@ -42,7 +42,7 @@ export function Footer() {
               {/* E-mail */}
               <div className="flex items-center gap-2 text-slate-400">
                 <Mail className="size-4" />
-                <span>contato@gamerent.com.br</span>
+                <span>contato@gamesmaniacom.br</span>
               </div>
               {/* Telefone */}
               <div className="flex items-center gap-2 text-slate-400">
@@ -65,7 +65,7 @@ export function Footer() {
         
         {/* Linha de copyright */}
         <div className="border-t border-slate-800 mt-8 pt-8 text-center text-slate-400">
-          <p>&copy; 2025 GameRent. Todos os direitos reservados.</p>
+          <p>&copy; 2025 Games Mania. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
