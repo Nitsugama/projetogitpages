@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from './ui/dialog';
-import { Button } from './ui/button';
-import { Input } from './ui/input';
-import { Label } from './ui/label';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from '../../components/ui/dialog';
+import { Button } from '../../components/ui/button';
+import { Input } from '../../components/ui/input';
+import { Label } from '../../components/ui/label';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '../../components/ui/tabs';
 
 // ============================================================================
 // COMPONENTE LOGIN DIALOG - Modal de login e registro
@@ -101,7 +101,7 @@ export function LoginDialog({ open, onClose, onLogin, onRegister }: LoginDialogP
       <DialogContent className="sm:max-w-md">
         {/* Cabeçalho do modal */}
         <DialogHeader>
-          <DialogTitle>Bem-vindo ao GameRent</DialogTitle>
+          <DialogTitle>Bem-vindo ao Games Mania</DialogTitle>
           <DialogDescription>
             Faça login ou crie uma conta para continuar
           </DialogDescription>

@@ -1,5 +1,5 @@
 import { Gamepad2, Mail, User, LogOut, Calendar } from 'lucide-react';
-import { Button } from './ui/button';
+import { Button } from '../../components/ui/button';
 
 // ============================================================================
 // COMPONENTE HEADER - Cabeçalho da aplicação

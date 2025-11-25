@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { ArrowLeft, Calendar as CalendarIcon } from 'lucide-react';
-import { Button } from './ui/button';
-import { Calendar } from './ui/calendar';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
+import { Button } from '../../components/ui/button';
+import { Calendar } from '../../components/ui/calendar';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../components/ui/card';
 import type { Game, Reservation } from '../App';
 
 // ============================================================================

@@ -42,7 +42,7 @@ export function Footer() {
               {/* E-mail */}
               <div className="flex items-center gap-2 text-slate-400">
                 <Mail className="size-4" />
-                <span>contato@gamesmaniacom.br</span>
+                <span>contato@gamesmania.com.br</span>
               </div>
               {/* Telefone */}
               <div className="flex items-center gap-2 text-slate-400">

@@ -1,6 +1,6 @@
-import { Card, CardContent, CardFooter, CardHeader } from './ui/card';
-import { Badge } from './ui/badge';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import { Card, CardContent, CardFooter, CardHeader } from '../../components/ui/card';
+import { Badge } from '../../components/ui/badge';
+import { ImageWithFallback } from '../../components/figma/ImageWithFallback';
 import type { Game } from '../App';
 
 // ============================================================================
