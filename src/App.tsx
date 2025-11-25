@@ -193,6 +193,7 @@ export const gamesData: Game[] = [
   }
 ];
 
+
 // ============================================================================
 // COMPONENTE PRINCIPAL - Gerencia todo o estado e navegação da aplicação
 // ============================================================================
@@ -283,38 +284,18 @@ function App() {
    * @param username - Nome de usuário digitado
    * @param password - Senha digitada
    */
-  const handleLogin = async (username: string, password: string) => {
-  try {
-    const res = await fetch("/api/auth/login", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ username, password })
-    });
-
-    if (!res.ok) {
-      alert("Usuário ou senha incorretos");
-      return;
-    }
-
-    const data = await res.json();
-
-    console.log("LOGIN OK:", data);
-
+  const handleLogin = (username: string, password: string) => {
+    // Simular login bem-sucedido (aceita qualquer credencial)
     setIsLoggedIn(true);
     setShowLoginDialog(false);
-
+    
+    // Se havia um jogo pendente para alugar, continua o processo
     if (pendingGameForRent) {
       setSelectedGame(pendingGameForRent);
       setCurrentPage('calendar');
       setPendingGameForRent(null);
     }
-
-  } catch (error) {
-    console.error("Erro ao logar:", error);
-    alert("Erro ao conectar ao servidor");
-  }
-};
-
+  };
 
   /**
    * Função chamada quando o usuário cria uma nova conta
@@ -325,38 +306,18 @@ function App() {
    * @param email - E-mail do usuário
    * @param password - Senha escolhida
    */
- const handleRegister = async (username: string, email: string, password: string) => {
-  try {
-    const res = await fetch("/api/auth/register", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ username, email, password })
-    });
-
-    if (!res.ok) {
-      alert("Erro ao registrar");
-      return;
-    }
-
-    const data = await res.json();
-
-    console.log("REGISTRO OK:", data);
-
+  const handleRegister = (username: string, email: string, password: string) => {
+    // Simular registro bem-sucedido e login automático
     setIsLoggedIn(true);
     setShowLoginDialog(false);
-
+    
+    // Se havia um jogo pendente para alugar, continua o processo
     if (pendingGameForRent) {
       setSelectedGame(pendingGameForRent);
       setCurrentPage('calendar');
       setPendingGameForRent(null);
     }
-
-  } catch (error) {
-    console.error("Erro ao registrar:", error);
-    alert("Erro ao conectar ao servidor");
-  }
-};
-
+  };
 
   /**
    * Função chamada quando o usuário faz logout

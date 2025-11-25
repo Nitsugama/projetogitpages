@@ -5,7 +5,6 @@
 
   export default defineConfig({
     plugins: [react()],
-    base: '/fatecfrontend/',
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
@@ -55,14 +54,7 @@
       outDir: 'build',
     },
     server: {
-      port: 5173,
+      port: 3000,
       open: true,
-      proxy: {  
-      "/api": {
-        target: "http://localhost:3001",
-        changeOrigin: true,
-        secure: false,
-      },
     },
-  },
   });

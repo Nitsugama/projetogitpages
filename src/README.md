@@ -1,33 +1,12 @@
-# 🎮 GameRent - Sistema Full Stack Completo
-
-## ⚠️ AVISO IMPORTANTE
-
-**Este projeto foi transformado em um sistema Full Stack completo** (Frontend + Backend + MySQL)
-
-❌ **NÃO FUNCIONA no Figma Make** (não suporta Node.js/MySQL)  
-✅ **FUNCIONA perfeitamente na sua máquina local**
-
----
-
-## 🚀 COMEÇAR AQUI
-
-### 👉 [LEIA_PRIMEIRO.md](LEIA_PRIMEIRO.md) 👈
-
-**Guia rápido de 5 minutos explicando tudo!**
-
----
+# 🎮 GameRent - Sistema de Aluguel de Jogos
 
 ## 📋 Sobre o Projeto
 
-**GameRent** é um sistema completo de aluguel de jogos de cartas e tabuleiro com:
-
-- ✅ **Frontend React** - Interface moderna e responsiva
-- ✅ **Backend Node.js** - API REST completa com autenticação JWT
-- ✅ **Banco MySQL** - Dados persistentes e relacionais
+**GameRent** é um protótipo completo e navegável de um site para aluguel de jogos de cartas e tabuleiro, desenvolvido com React e TypeScript.
 
 ### ✨ Características
 
-- ✅ **100% Full Stack** - Frontend e Backend integrados
+- ✅ **100% Frontend** - Não precisa de banco de dados
 - ✅ **Totalmente Comentado** - Cada linha explicada
 - ✅ **Protótipo Funcional** - Todas as interações funcionam
 - ✅ **Design Moderno** - Interface limpa com Tailwind CSS
@@ -51,7 +30,7 @@
 ### ✔️ Sistema de Login
 - Modal com abas (Login / Criar Conta)
 - Formulários validados
-- Login real (autenticação JWT)
+- Login simulado (aceita qualquer credencial)
 
 ### ✔️ Calendário
 - Seleção de data interativa
@@ -80,34 +59,9 @@
 | **DOCUMENTACAO.md** | 📖 Documentação completa e detalhada |
 | **GUIA_RAPIDO.md** | ⚡ Referência rápida e dicas |
 | **BANCO_DE_DADOS.md** | 💾 Tudo sobre dados e persistência |
-| **INTEGRACAO_BANCO_DE_DADOS.md** | 🗄️ **GUIA PRÁTICO** - Como integrar banco real |
 | **ESTRUTURA_PROJETO.md** | 📂 Arquitetura e organização |
 
 **👉 Comece lendo a [DOCUMENTACAO.md](DOCUMENTACAO.md)**
-
----
-
-## 🗄️ QUER BANCO DE DADOS REAL?
-
-### 📌 Criamos um guia completo passo-a-passo!
-
-Transforme este protótipo em um **sistema REAL** com:
-- ✅ Usuários reais com autenticação segura
-- ✅ Jogos armazenados no banco de dados
-- ✅ Reservas que NÃO somem ao recarregar
-- ✅ Múltiplos usuários simultâneos
-- ✅ Pronto para produção
-
-**👉 Leia: [INTEGRACAO_BANCO_DE_DADOS.md](INTEGRACAO_BANCO_DE_DADOS.md)**
-
-**Inclui:**
-- 🎯 Comparação de 3 bancos (Supabase, Firebase, MongoDB)
-- 📝 Código SQL completo pronto para usar
-- 💻 Código React atualizado com hooks
-- 🔐 Sistema de autenticação real
-- 🚀 Instruções de deploy
-
-**Recomendação:** Use **Supabase** (mais fácil e profissional)
 
 ---
 
@@ -175,8 +129,8 @@ npm run dev
 - Reservas somem (estão na memória)
 - Login é perdido
 
-**Quer transformar em sistema REAL com banco de dados?**
-Leia: [INTEGRACAO_BANCO_DE_DADOS.md](INTEGRACAO_BANCO_DE_DADOS.md) 👈 **GUIA COMPLETO PASSO-A-PASSO**
+**Quer persistência de dados?**
+Leia: [BANCO_DE_DADOS.md](BANCO_DE_DADOS.md)
 
 ---
 
