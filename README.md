@@ -1,11 +1,9 @@
+Projeto Integrador Fatec
 
-  # Prototipo Site Aluguel Jogos
+links:
+https://docs.google.com/document/d/1CFjY_SxUX_TxlaC8U9GYAMm92lYzwovBcDx2ip1RLKg/edit?tab=t.0 
+https://trello.com/b/M5yJTzsM/projeto-integrador-ihc-e-es-ii
+https://gamma.app/docs/Games-Mania-Aluguel-de-jogos-de-tabuleiro-w7r53ano4wwy9qw?mode=doc
 
-  This is a code bundle for Prototipo Site Aluguel Jogos. The original project is available at https://www.figma.com/design/aXvduecJ7cKZbHmy7BUwDh/Prototipo-Site-Aluguel-Jogos.
-
-  ## Running the code
-
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  
+Repositório do projeto com integração com backend:
+https://github.com/Nitsugama/ProjetoIntegradorFatec
